@@ -9,4 +9,4 @@ SESSION_NAME = os.environ.get("SESSION_NAME","")
 
 app = Client(SESSION_NAME, API_ID, API_HASH,plugins=dict(root="plugins"))
 #logging.basicConfig(level=logging.INFO)
-app.run()
+app.start()
