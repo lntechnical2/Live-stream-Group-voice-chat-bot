@@ -23,5 +23,6 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 	meta = ydl.extract_info(url, download=False)
 	formats = meta.get('formats', [meta])
 	for f in formats:
-		print(f['url'])```
+		print(f['url'])
+```
 
