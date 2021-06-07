@@ -1,4 +1,4 @@
-from pyrogram import Client
+from pyrogram import Client,idle
 import os
 
 API_ID = int(os.environ.get("API_ID", 12345))
@@ -7,5 +7,8 @@ SESSION_NAME = os.environ.get("SESSION_STRING", "")
 
 
 app = Client(SESSION_NAME, API_ID, API_HASH,plugins=dict(root="plugins"))
-
 app.start()
+print('>>> USERBOT STARTED')
+idle()
+app.stop()
+print('\n>>> USERBOT STOPPED')
