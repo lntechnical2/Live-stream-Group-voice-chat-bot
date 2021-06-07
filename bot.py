@@ -1,4 +1,4 @@
-import os
+from os import environ
 import signal
 from pyrogram import Client
 import ffmpeg  
@@ -7,9 +7,9 @@ from pyrogram.types import Message
 from pytgcalls import GroupCall
 
 
-API_ID = int(os.environ.get("API_ID", 12345))
-API_HASH = os.environ.get("API_HASH", "")
-SESSION_NAME = os.environ.get("SESSION_STRING", "")
+API_ID = int(environ["API_ID"])
+API_HASH = environ["API_HASH"]
+SESSION_NAME = environ["SESSION_NAME"]
 
 app = Client( SESSION_NAME,API_ID,
  API_HASH)
