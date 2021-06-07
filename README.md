@@ -16,7 +16,8 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls
 #### install youtube_dl
 ```pip install youtube_dl```
 
-```import youtube_dl
+```
+import youtube_dl
 ydl_opts = {}
 url = input("enter your url:- ")
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
