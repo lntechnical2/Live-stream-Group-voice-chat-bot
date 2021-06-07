@@ -27,7 +27,7 @@ To stop use !stop command"""
 GROUP_CALLS = {}
 FFMPEG_PROCESSES = {}
 
-@app.on_message(fiters.command('help',prefixes='!'))
+@app.on_message(filters.command('help',prefixes='!'))
 async def help(client,message):
 	get =await client.get_chat_member(message.chat.id,message.from_user.id)
 	status = get. status
