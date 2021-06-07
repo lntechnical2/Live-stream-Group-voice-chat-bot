@@ -85,4 +85,4 @@ async def stop(client,message):
 	   	process.send_signal(signal.SIGTERM)
 	   
 
-app.run()
+app.start()
