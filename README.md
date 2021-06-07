@@ -10,8 +10,9 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls
 - Install **ffmpeg**
 
 ### Get YouTube live stream link 
+#### install youtube_dl
+```pip install youtube_dl```
 ```
-#pip install youtube_dl
 import youtube_dl
 ydl_opts = {} 
 url = input("enter your url:- ")
