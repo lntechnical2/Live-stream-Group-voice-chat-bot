@@ -4,7 +4,7 @@
     "repository": "https://github.com/lntechnical2/Google-Translater-",
     "keywords": ["pytgcalls", "pyrogram", "telegram bot"],
     "env": {
-        "SESSION_NAME": {
+        "SESSION_STRING": {
             "description": "Session string, read the README to learn how to export it with Pyrogram"
         },
         "APP_ID": {
