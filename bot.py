@@ -13,7 +13,7 @@ API_HASH = os.environ.get("API_HASH","")
 SESSION_NAME = os.environ.get("SESSION_NAME","")
 
 
-app = Client(SESSION_NAME, API_ID, API_HASH,plugins=dict(root="plugins"))
+app = Client(SESSION_NAME, API_ID, API_HASH)
 #logging.basicConfig(level=logging.INFO)
 
 
