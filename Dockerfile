@@ -11,7 +11,7 @@ RUN python -m pip install wheel Pyrogram TgCrypto
 RUN python -m pip install pytgcalls ffmpeg-python psutil
 
 
-RUN wget -q https://github.com/AsmSafone/RadioPlayerV2/archive/safone.tar.gz && tar xf safone.tar.gz && rm safone.tar.gz
+RUN wget -q https://github.com/lntechnical2/Live-stream-Group-voice-chat-bot.tar.gz && tar xf safone.tar.gz && rm safone.tar.gz
 
 WORKDIR /RadioPlayerV2-safone
-CMD python3 main.py
+CMD python3 bot.py
