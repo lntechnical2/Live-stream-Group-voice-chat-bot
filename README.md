@@ -35,8 +35,8 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 ```If you have a https:// address change it to http:// otherwise you get an "HTTP error 403 forbidden```
 
 ## Credits 
-<a href="https://t.me/tgcallslib">pytgcalls</a>
-<a href="https://t.me/pyrogram">pyrogram</a>
+- <a href="https://t.me/tgcallslib">pytgcalls</a>
+- <a href="https://t.me/pyrogram">pyrogram</a>
 
 
 
