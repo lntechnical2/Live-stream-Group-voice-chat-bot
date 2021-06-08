@@ -14,9 +14,11 @@
             "description": "Your API_HASH from https://my.telegram.org/apps"
         }
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
+     "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
     ]
 }
