@@ -9,6 +9,8 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls
 - Python 3.7 or higher 
 - Install **ffmpeg**
 
+### Generate Session string
+
 ## HEROKU
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lntechnical2/Live-stream-Group-voice-chat-bot)
 
