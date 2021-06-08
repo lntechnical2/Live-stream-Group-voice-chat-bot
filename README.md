@@ -11,7 +11,7 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls
 
 ### Generate Session string
 Generate Your Session string 
-👇👇
+👇
 <a href="https://replit.com/@lntechnical/GenerateStringSession#main.py">CLICK HERE</a>
 
 ## HEROKU
