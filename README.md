@@ -3,6 +3,11 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls
 
 <img src="https://github.com/MarshalX/tgcalls/raw/main/.github/images/tgcalls.png" alt="tgcalls">
 
+## Tutorial
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
 ## Requirements
 
 - Telegram API_ID , 
