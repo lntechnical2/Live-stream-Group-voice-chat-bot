@@ -1,7 +1,7 @@
 {
     "name": "live stream VC BOT",
     "description": "telegram Voice Chat User bot",
-    "repository": "https://github.com/lntechnical2/Google-Translater-",
+    "repository": "https://github.com/lntechnical2/Live-stream-Group-voice-chat-bot",
     "keywords": ["pytgcalls", "pyrogram", "telegram bot"],
     "env": {
         "SESSION_NAME": {
